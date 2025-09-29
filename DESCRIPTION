@@ -1,0 +1,16 @@
+Package: praiseme
+Title: This is a package practice in WOMBAT25
+Version: 0.0.0.9000
+Authors@R: 
+    person("Christy", "Lai", , "christylwh99@gmail.com", role = c("aut", "cre"))
+Description: Volunteering with WOMBAT 2025 AM Tutorial with Nick(Topic: Introduction of making R package.).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    cli
+Suggests:
+    rlang,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
