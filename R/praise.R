@@ -7,6 +7,6 @@
 #'
 #' @examples
 #' praise(name = "Christy")
-praise <- function(name = "Christy"){
-     cli::cli_inform("Hey{.strong (name)},You're so awesome!")
+praise <- function(name = "Christy") {
+  cli::cli_inform("Hey {.strong {name}}, You're so awesome!")
 }
