@@ -15,13 +15,13 @@ knitr::opts_chunk$set(
 
 # praiseme 
 
-WOMBAT 2025
+[WOMBAT 2025](https://wombat2025.numbat.space/program/tutorials/PLVPUV.html)🐻
 
-Very Happy to be volunteer with Nicholas Tierney.
+Very Happy to be volunteer with [Nicholas Tierney](https://github.com/njtierney).😄
 
 AM Tutorial: Introduction to R packages!
 
-Thank you so much Nick!
+Thank you so much Nick!🙏
 <p>
   <img src="P1.jpg" width="300">
   <img src="P2.jpg" width="300">
@@ -49,6 +49,8 @@ praise(name = "Nick, Michael, Fang, Vis, Christy")
 
 
 # Notes for the tutorial
+Although I am volunteering for this tutorial, I also following Nick teaching.
+Here are some notes for me to remember:
 
 - Creating new project: using New Project -> New Directory -> R Package using devtools
 
