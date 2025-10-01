@@ -20,16 +20,18 @@ WOMBAT 2025
 Very Happy to be volunteer with Nicholas Tierney.
 
 AM Tutorial: Introduction to R packages!
-<img src="P1.jpg" alt="Wombat tutorial" style="max-width: 420px;">
-
 
 Thank you so much Nick!
-<img src="Pw2.jpg" alt="WOMBAT tutorial" style="max-width: 420px;">
+<p>
+  <img src="P1.jpg" width="300">
+  <img src="P2.jpg" width="300">
+</p>
+
 
 
 # Installation
-You can install the development version of praiseme4 from [GitHub](https://github.com/ChristyLAI99/praiseme.git) with:
-```{r}
+You can install the development version of praiseme from [GitHub](https://github.com/ChristyLAI99/praiseme.git) with:
+```{r eval=FALSE}
 # install.packages("pak")
 pak::pak("ChristyLAI99/praiseme")
 ```
@@ -57,20 +59,20 @@ praise(name = "Nick, Michael, Fang, Vis, Christy")
 - Packages will use: usethis, devtools, testthat, cli, rlang
 
 - When writing funtions:
-   > Good practice to use devtools::document() to update the documentation.
-   > Use devtools::load_all()
-   > devtools::check() to check if there is any error.
-   > usethis::use_testthat() to create test folder. use_test("praise") to create test file.
+   - Good practice to use devtools::document() to update the documentation.
+   - Use devtools::load_all()
+   - devtools::check() to check if there is any error.
+   - usethis::use_testthat() to create test folder. use_test("praise") to create test file.
    
 
 - When link to github can use:
-   > usethis::create_github_token()
-   > gitcreds::gitcreds_set()
-   > usethis::use_git()
-   > usethis::use_github()
+   - usethis::create_github_token()
+   - gitcreds::gitcreds_set()
+   - usethis::use_git()
+   - usethis::use_github()
    
 We also learnt when there is conflict between packages, we can use conflicted package to solve the problem. For example:
-```{r, eval= FALSE}
+```{r, eval= FALSE, message=FALSE, warning=FALSE}
 library(conflicted)
 library(dplyr)
 
